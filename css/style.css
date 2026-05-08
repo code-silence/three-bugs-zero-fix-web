@@ -1,0 +1,82 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Our BACKGROUND */
+body {
+  background: linear-gradient(135deg, #000000, #061a33);
+  color: white;
+  min-height: 100vh;
+}
+
+/*  NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(10, 20, 40, 0.6);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 140, 255, 0.2);
+}
+
+/* LOGO */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00aaff;
+}
+
+.logo span {
+  color: white;
+}
+
+/* LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #cce6ff;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00aaff;
+}
+
+/* MOBILE MENU BUTTON */
+.menu-btn {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* 🏠 HERO */
+.hero {
+  margin-top: 120px;
+  text-align: center;
+  padding: 60px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: #00aaff;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #b0cfff;
+}
