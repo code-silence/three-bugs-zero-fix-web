@@ -60,6 +60,12 @@ body {
     display: none;
     font-size: 25px;
     cursor: pointer;
+    color: white;
+    background: #0f172a;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    padding: 10px 14px;
+    transition: background 0.3s, transform 0.2s;
 }
 
 /* Responsive phone/mobile view */
