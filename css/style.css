@@ -1,82 +1,63 @@
-/* RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Our BACKGROUND */
-body {
-  background: linear-gradient(135deg, #000000, #061a33);
-  color: white;
-  min-height: 100vh;
+body{
+    background: #0f172a;
+    color: white;
 }
 
-/*  NAVBAR */
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 15px 50px;
+/* Navbar */
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  background: rgba(10, 20, 40, 0.6);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0, 140, 255, 0.2);
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #111827;
 }
 
-/* LOGO */
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-  color: #00aaff;
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #38bdf8;
 }
 
-.logo span {
-  color: white;
+.logo img{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+    mix-blend-mode: screen;
 }
 
-/* LINKS */
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 25px;
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
 }
 
-.nav-links a {
-  text-decoration: none;
-  color: #cce6ff;
-  transition: 0.3s;
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
-.nav-links a:hover {
-  color: #00aaff;
+.nav-links a:hover{
+    color: #38bdf8;
 }
 
-/* MOBILE MENU BUTTON */
-.menu-btn {
-  display: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-/* 🏠 HERO */
-.hero {
-  margin-top: 120px;
-  text-align: center;
-  padding: 60px;
-}
-
-.hero h1 {
-  font-size: 40px;
-  color: #00aaff;
-}
-
-.hero p {
-  margin-top: 10px;
-  color: #b0cfff;
+.menu-btn{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
 }
