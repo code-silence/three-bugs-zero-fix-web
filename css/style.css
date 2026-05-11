@@ -31,6 +31,19 @@ body {
     color: #38bdf8;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.logo .accent {
+    color: white;   
+}
+
 .logo img {
     height: 50px;
     width: 50px;
