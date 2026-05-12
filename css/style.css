@@ -411,7 +411,7 @@ body {
     transform: translateY(-3px);
 }
 
-/* Mobile Responsive for Contact */
+/* Mobile Responsive for Contact page*/
 
 @media (max-width: 768px) {
     .contact {
