@@ -401,7 +401,7 @@ html {
 
     padding: 80px 8% 40px;
 
-    
+
 }
 
 /* Glow Background */
@@ -553,9 +553,9 @@ html {
 
     border-radius: 18px;
 
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
 
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
 
     color: white;
 
@@ -571,19 +571,18 @@ html {
 .footer-social a:hover {
 
     transform:
-        translateY(-10px)
-        rotate(5deg);
+        translateY(-10px) rotate(5deg);
 
     background: #38bdf8;
 
-    box-shadow: 0 0 25px rgba(56,189,248,0.6);
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.6);
 }
 
 /* Bottom */
 
 .footer-bottom {
 
-    border-top: 1px solid rgba(255,255,255,0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
 
     padding-top: 25px;
 }
