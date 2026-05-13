@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Three Bugs Zero Fix</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <!--Font Awesome add-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/team-logo.jpg" alt="Logo">
+            Three Bugs <span class="accent">Zero Fix</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Phone Menu Button -->
+        <button class="menu-btn" aria-label="Toggle menu" tabindex="0" onKeyDown="this.click()">
+            ☰
+        </button>
+    </nav>
+
+    <!-- Contact Section form-->
+
+    <section class="contact">
+        <div class="contact-content">
+            <h1>Don't be late to Contact us!</h1>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- end of contact form -->
+    <footer class="footer">
+
+        <div class="footer-glow"></div>
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <h3>
+                    Three Bugs <span>Zero Fix</span>
+                </h3>
+
+                <p>
+                    Creating modern, creative and powerful web experiences
+                    with teamwork and innovation.
+                </p>
+
+            </div>
+
+            <div class="footer-nav">
+
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+
+            </div>
+
+            <div class="footer-social">
+
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Three Bugs Zero Fix — All Rights Reserved</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
