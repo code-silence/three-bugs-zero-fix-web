@@ -834,6 +834,13 @@ body.about-page-body {
   color: #38bdf8;
   border: 2px solid rgba(56, 189, 248, 0.3);
 }
+/* Team member picture styling */
+.about-member-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
 .about-member-card h3 {
   font-size: 22px;
